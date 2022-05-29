@@ -6,9 +6,6 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
-        - /Axes1
-        - /mapping1
-        - /mapping1/currPoints1
         - /Odometry1/Odometry1/Shape1
         - /Odometry1/Odometry2/Shape1
         - /Odometry1/Odometry3/Shape1
@@ -44,7 +41,7 @@ Visualization Manager:
       Cell Size: 1
       Class: rviz/Grid
       Color: 160; 160; 164
-      Enabled: false
+      Enabled: true
       Line Style:
         Line Width: 0.029999999329447746
         Value: Lines
@@ -57,7 +54,7 @@ Visualization Manager:
       Plane: XY
       Plane Cell Count: 160
       Reference Frame: <Fixed Frame>
-      Value: false
+      Value: true
     - Class: rviz/Axes
       Enabled: true
       Length: 0.5
@@ -198,8 +195,8 @@ Visualization Manager:
         - Alpha: 0.10000000149011612
           Autocompute Intensity Bounds: true
           Autocompute Value Bounds:
-            Max Value: 4.4945831298828125
-            Min Value: -0.41195470094680786
+            Max Value: 4.308511734008789
+            Min Value: -0.48290324211120605
             Value: true
           Axis: Z
           Channel Name: intensity
@@ -486,7 +483,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 35.74529266357422
+      Distance: 40.03472900390625
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -501,10 +498,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.19020187854766846
+      Pitch: 0.18020185828208923
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 3.058572769165039
+      Yaw: 3.098573684692383
     Saved: ~
 Window Geometry:
   Displays:
